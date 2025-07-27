@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="getwebooster.com" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+      <metadata>
+        <link href="https://gmaps2gpx.extensionsbox.com/">
+          <text>GMaps2GPX</text>
+        </link>
+        <time>2024-02-12T13:42:48.570Z</time>
+      </metadata>
+    
+      <wpt lat="53.806101899999994" lon="-1.5546864">
+        <name>Edward Boyle Library, University of Leeds</name>
+      </wpt>
+    
+      <wpt lat="53.8052506" lon="-1.5315326999999999">
+        <name>Muay Thai Kiatphontip</name>
+      </wpt>
+    
+    <trk>
+    </trk>
+</gpx>

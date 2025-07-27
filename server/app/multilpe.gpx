@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Your Application" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Two Tracks in the UK</name>
+  </metadata>
+  <wpt lat="51.5074" lon="-0.1278">
+    <name>London</name>
+    <desc>Capital city of England and the United Kingdom</desc>
+  </wpt>
+  <wpt lat="51.5094" lon="-0.1238">
+    <name>London Eye</name>
+    <desc>Giant Ferris wheel on the South Bank of the River Thames</desc>
+  </wpt>
+  <wpt lat="51.5097" lon="-0.1254">
+    <name>Big Ben</name>
+    <desc>Elizabeth Tower at the north end of the Palace of Westminster</desc>
+  </wpt>
+  <wpt lat="51.5073" lon="-0.1276">
+    <name>Trafalgar Square</name>
+    <desc>Public square in the City of Westminster, Central London</desc>
+  </wpt>
+  <wpt lat="51.5083" lon="-0.1258">
+    <name>Westminster Abbey</name>
+    <desc>Large, mainly Gothic abbey church in the City of Westminster</desc>
+  </wpt>
+  <trk>
+    <name>Track 1</name>
+    <trkseg>
+      <trkpt lat="51.5074" lon="-0.1278">
+        <ele>10</ele>
+        <time>2024-02-11T10:00:00Z</time>
+      </trkpt>
+      <trkpt lat="51.5094" lon="-0.1238">
+        <ele>15</ele>
+        <time>2024-02-11T10:15:00Z</time>
+      </trkpt>
+      <trkpt lat="51.5097" lon="-0.1254">
+        <ele>20</ele>
+        <time>2024-02-11T10:30:00Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Track 2</name>
+    <trkseg>
+      <trkpt lat="51.5073" lon="-0.1276">
+        <ele>5</ele>
+        <time>2024-02-11T11:00:00Z</time>
+      </trkpt>
+      <trkpt lat="51.5083" lon="-0.1258">
+        <ele>10</ele>
+        <time>2024-02-11T11:30:00Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

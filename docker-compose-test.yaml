@@ -1,0 +1,18 @@
+# This is used for testing
+
+services:
+  backend-unit-dev: # Run unit tests
+    image: flask-api-dev
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./server:/app
+    command: pytest tests/unit
+
+  backend-test-dev: # Use in memory database
+    image: flask-api-dev
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./server:/app
+    command: python run.py dev

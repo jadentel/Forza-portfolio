@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Upload GPX{% endblock %}
+
+{% block content %}
+<div class="max-w-xl mx-auto py-10">
+    <h1 class="text-2xl font-bold mb-5">Create Activity</h1>
+    <form method="POST" enctype="multipart/form-data" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        {{ form.hidden_tag() }}
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="{{ form.activity_name.id }}">
+                {{ form.activity_name.label }}
+            </label>
+            {{ form.activity_name(class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline") }}
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="{{ form.activity_type.id }}">
+                {{ form.activity_type.label }}
+            </label>
+            {{ form.activity_type(class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline") }}
+        </div>
+        <div class="mb-6">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="{{ form.public.id }}">
+                {{ form.public.label }}
+            </label>
+            <div class="mt-2">
+                {{ form.public(class="form-checkbox h-5 w-5 text-gray-600") }}
+            </div>
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="{{ form.gpx_file.id }}">
+                {{ form.gpx_file.label }}
+            </label>
+            {{ form.gpx_file(class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline") }}
+        </div>
+        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+            Create
+        </button>
+    </form>
+</div>
+{% endblock %}
